@@ -1,10 +1,12 @@
 <html>
     <head>
         <link rel="stylesheet" href="form.css">
+        <script src="form.js"></script>
     </head>
 
     <body>
 
+        <!-- TODO: Align the textboxes properly -->
         <label for="name">Name</label>
         <input type="text" name="name">
 
@@ -35,7 +37,25 @@
 
         <br>
 
-        <button id="submit">Submit</button>
+        <button id="submit" onclick="print_hello_walid()">Submit</button>
+
+        <!-- Take file as a input -->
+        <input type="file">
+
+        <input type="date">
+
+
+        <!-- TIP: Look into checkbox groups -->
+        <!-- TODO: Only let user tick a single checkbox -->
+        <br>
+        <input type="checkbox" name="">
+        <label for="">PSG</label>
+        <br>
+        <input type="checkbox" name="">
+        <label for="">Arsenal</label>
+        <br>
+        <input type="checkbox" name="">
+        <label for="">PSV</label>
         
     </body>
 </html>

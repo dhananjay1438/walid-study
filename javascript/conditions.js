@@ -27,3 +27,9 @@ if (my_grades > 90) {
 }
 
 
+if (condition) {
+    // Whatever we want to do in case the condition is true
+
+}
+
+

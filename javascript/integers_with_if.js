@@ -16,3 +16,5 @@ if (num2 > 30) {
 } else {
     console.log('Number is less than 30')
 }
+
+

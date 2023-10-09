@@ -1,1 +1,1 @@
-    console.log("I am not going to celebrate")
+console.log('b = ', b)

@@ -1,1 +1,0 @@
-.log("Number is odd")
